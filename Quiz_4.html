@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Practice</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<!-- <form> -->
+			<label for="First Name"><strong>First Name:</strong></label>
+			<input type="text" name="FirstName" placeholder="John" id="First Name" required>
+
+			<label for="Last Name"> <strong>Last Name:</strong></label>
+			<input type="text" name="LastName" placeholder="Smith" id="Last Name" required>
+			<br />
+		<!-- </form> -->
+
+		<!-- <form> -->
+			<label for="Male"><strong>Male</strong></label>
+			<input type="radio" name="sex" id="Male">
+
+			<label for="Female"><strong>Female</strong> </label>
+			<input type="radio" name="sex" id="Female">
+
+			<label for="None"><strong>None</strong></label>
+			<input type="radio" name="sex" id="None">
+
+			<br />
+		<!-- </form> -->
+
+		<!-- <form> -->
+			<label for="Email"><strong>Email:</strong></label>
+			<input type="Email" name="Email" id="Email" placeholder="your email" required>
+
+			<label for="Password"><strong>Password:</strong></label>
+			<input type="Password" name="Password" id="Password" title="5 to 10 characters" placeholder="your password" pattern=".{5,10}">
+			<br />
+
+			<label><strong>Birthday:</strong></label>
+			<select name="Month_Sel">
+				<option value="">Month</option>
+				<option value="Jan">Jan</option>
+				<option value="Feb">Feb</option>
+				<option value="Mar">Mar</option>
+				<option value="Apr">Apr</option>
+				<option value="May">May</option>
+				<option value="Jun">Jun</option>
+				<option value="Jul">Jul</option>
+				<option value="Aug">Aug</option>
+				<option value="Sep">Sep</option>
+				<option value="Oct">Oct</option>
+				<option value="Nov">Nov</option>
+				<option value="Dec">Dec</option>
+			</select>
+			<select  name="day">
+				<option value="">Day</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+				<option>11</option>
+				<option>12</option>
+				<option>13</option>
+				<option>14</option>
+				<option>15</option>
+				<option>16</option>
+				<option>17</option>
+				<option>18</option>
+				<option>19</option>
+				<option>20</option>
+				<option>21</option>
+				<option>22</option>
+				<option>23</option>
+				<option>24</option>
+				<option>25</option>
+				<option>26</option>
+				<option>27</option>
+				<option>28</option>
+				<option>29</option>
+				<option>30</option>
+				<option>31</option>
+			</select>
+			<select name="year">
+				<option value="">Year</option>
+				<option>1998</option>
+				<option>1999</option>
+				<option>2000</option>
+			</select>
+			<br />
+
+			<label for="Terms"><strong>I agree:</strong></label>
+			<input type="checkbox" name="agree" id="Terms">
+			<br />
+		<!-- </form> -->
+
+		<button>Submit</button>
+	</form>
+
+</body>
+</html>
